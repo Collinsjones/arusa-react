@@ -1,0 +1,207 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  hr{
+    width: 1440px;
+   
+  }
+  .topsech3{
+    width: 1440px;
+    height: 90px;
+    border: 1px solid #dfdedb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+
+  .enjoy {
+    font-family: 'Reckless Neue';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -2%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+   
+  }
+
+  .thrdpge {
+    display: flex;
+  }
+
+  .Timgone {
+    width: 330px;
+    height: 331px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .Timgtwo {
+    width: 330px;
+    height: 331px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .Timgthree {
+    width: 330px;
+    height: 331px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .Timgfour {
+    width: 330px;
+    height: 331px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+  }
+
+  .name {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 15px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+  }
+
+  
+.price {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -15px;
+    margin-left: 310px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+}
+
+.shpsec{
+  width: 1440px;
+  height: 62px;
+  border: 1px solid #dfdedb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.shopall{
+  width: 65px;
+  height: 14px;
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 10%; 
+  color: #323334;
+  text-decoration: none;
+
+}
+
+.shopall:hover {
+  text-decoration: underline;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:376px) {
+  
+  .topsech3{
+    width: 375px;
+    height: 132px;
+    align-items: center;
+    border: 1px solid #dfdedb;
+    
+    
+  }
+  .enjoy{
+    width: 375px;
+    height: 84px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .thrdpge{
+    width: 375px;
+    justify-items: auto;
+    flex-wrap: wrap;
+
+    
+  }
+
+  .Timgone {
+    width: 171.5px;
+    height: 154px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+  }
+
+  .Timgtwo {
+    width: 171.5px;
+    height: 154px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .Timgthree {
+    width: 171.5px;
+    height: 154px;
+    margin-left: 8px;
+    margin-right: 8px;
+   
+  }
+
+  .Timgfour {
+    width: 171.5px;
+    height: 154px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .name {
+  
+    margin-top: 8px;
+    margin-left: 8px;
+  
+  }
+
+  
+.price {
+    margin-top: 24px;
+    margin-left: 8px;
+    
+}
+
+.shpsec {
+  width: 375px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+}
+
+
+    
+
+} 

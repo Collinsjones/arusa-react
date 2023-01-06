@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.Blackvas {
+    width: 1440px;
+    height: 665px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.blackvase {
+    width: 392px;
+    height: 502px;
+}
+
+ /* media queries */
+
+ @media screen and (max-width:376px) {
+    .Blackvas{
+        width: 375px;
+    }
+    .blackvase {
+        width: 196px;
+        height: 333px;
+    }
+ }

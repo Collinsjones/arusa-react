@@ -1,0 +1,340 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sixthpage{
+    width: 1441px;
+    background-color: #384353;
+}
+.topsec{
+    display: flex;
+}
+
+.lookbook{
+    width: 62px;
+    background-color: inherit;
+    border: 1px solid #dfdedb;
+    
+    
+}
+.lbook{
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    transform: rotate(-90deg);
+    margin-left: 16px;
+    margin-right: 18px;
+    margin-top: 674px;
+    color: #f5f4f3;
+
+}
+
+article{
+    background-color: inherit;
+    width: 756px;
+    height: 769px;
+    border: 1px solid #dfdedb;
+}
+.art-header{
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-size: 56px;
+    line-height: 64px;
+    align-items: center;
+    vertical-align: top;
+    letter-spacing: -4%;
+    margin-left: 259px;
+    margin-top: 50px;
+    color: #f5f4f3;
+
+}
+.pieces{
+    width: 414px;
+    height: 76px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 171px;
+    margin-top: 409px;
+    color: #dfdedb;
+}
+
+table  {
+    width: 632px;
+    border: 1px solid #dfdedb;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    margin-top: 22px;
+    color: #f5f4f3;
+}
+
+.fig-container{
+    width: 582px;
+    height: 561px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 23px;
+    background-color: #e0e0e0;
+}
+
+.barcode{
+    width: 542px;
+    height: 422px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.brname{
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 20px;
+    align-items: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #323334;
+}
+
+.brprice{
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -14px;
+    margin-left: 500px;
+    align-items: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #323334;
+}
+
+.empty {
+    height: 22px;
+    
+}
+.hcon {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+td{
+
+    border-top: 1px solid #dfdedb;
+    height: 30px;
+    ;
+
+}
+.description{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+.efp {
+    height: 90px;
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    color: #f5f4f3;
+    border-top: 1px solid #dfdedb;
+    border-bottom:1px solid #dfdedb ;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product img {
+    width: 330px;
+    height: 331px;
+    margin-top: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.product .description {
+    width: 330px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    line-height: 14px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #f5f4f3;
+}
+
+
+.product .buttons {
+	position: relative;
+	top: -350px;
+	left: 15px;
+	transition: opacity 0.5s;
+	opacity: 0;
+	width: 330px;
+	height: 71%;
+	background-color: #00000044;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.product:hover .buttons {
+	opacity: 1;
+}
+
+.buttons .btn {
+	margin-right: 1rem;
+	background-color: #dddddd;
+	padding: 10px 20px;
+	width: 50%;
+	font-size: 1rem;
+	border-radius: 3px;
+}
+
+.buttons .btn:hover {
+	background-color: #384353;
+	color: #fff;
+}
+
+  /* media queries */
+
+  @media screen and (max-width:376px) {
+    .sixthpage{
+        width: 375px;
+        background-color: #384353;   
+  }
+
+    .topsec{
+    flex-direction: column;
+    }
+
+    .lookbook{
+        width: 375px;
+        border: none;
+        
+        
+    }
+    .lbook{
+        display: none;
+    
+    }
+    article{
+        
+        width: 375px;
+        height: 256px;
+        border: none;
+    }
+
+
+    .art-header{
+        width: 375px;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        margin-left: 10.5px;
+        margin-right: 10.5px;
+        margin-top: 16px;  
+    }
+
+    .pieces{
+        width: 343px;
+        height: 95pxpx;
+        margin-left: 10.5px;
+        margin-top: 56px;
+       
+    }
+
+    table  {
+        width: 375px;
+    }
+
+    .fig-container{
+        width: 343px;
+        height: 561px;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .barcode{
+        width: 303px;
+        height: 422px;
+        
+    }
+    
+    .brprice{
+        
+        margin-top: -14px;
+        margin-left: 265px;  
+    }
+
+    .efp {
+        height: 84px;
+        text-align: center;
+    }
+    .imgsec{
+        display: flex;
+        flex-wrap: wrap; 
+    
+    }
+
+    .image{
+        width: 171.5px;
+        height: 154px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .siname{
+        margin-left: 8px;
+    }
+    
+    .siprice {
+        margin-top: 24px;
+        margin-left: 8px;
+    }
+
+    .shopal{
+        width: 375px;   
+        margin-left: 0px;
+    }
+  }

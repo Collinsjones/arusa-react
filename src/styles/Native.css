@@ -1,0 +1,119 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .native {
+    margin-top: 22px;
+    width: 1440px;
+    display: flex;
+
+  }
+
+  .natsec {
+    width: 720px;
+    height: 670px;
+    background-color: #384353;
+  }
+
+  .nlc {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    margin-top: 211px;
+    margin-left: 157px;
+    color: #fcfdfd;
+  }
+
+  .refine {
+    width: 405px;
+    height: 152px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 48px;
+    margin-left: 157px;
+    line-height: 19px;
+    text-align: left;
+    vertical-align: top;
+    color: #dfdedb;
+  }
+
+  .sofa {
+    width: 720px;
+    height: 670px;
+  }
+.viewproduct {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 24px;
+    margin-left: 157px;
+    align-items: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #fcfdfd;
+    text-decoration: none;
+}
+
+.viewproduct:hover {
+    text-decoration: underline;
+    color: #384353;
+}
+
+/* media queries */
+
+@media screen and (max-width:376px) {
+  .native {
+    margin-top: 22px;
+    width: 375px;
+    flex-direction: column-reverse;
+  }
+
+  .secsofa {
+    background-color: #384353;
+  }
+
+  .sofa {
+    width: 343px;
+    height: 319.18px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .natsec {
+    width: 375px;
+    height: 411px;
+   
+  }
+  
+  .nlc{
+    font-size: 36px;
+    margin-top: 56px;
+    margin-left: 16px;
+  }
+
+  .refine {
+    width: 343px;
+    height: 190px;
+    margin-top: 48px;
+    margin-left: 16px;
+  }
+
+  .viewproduct {
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+
+}

@@ -1,0 +1,197 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.scndpage {
+    width: 1440px;
+    display: grid;
+}
+.tsfig{
+    width: 1440;
+    display: grid;
+}
+.lsfig{
+    width: 1440px;
+    display: grid;
+}
+
+.Simgone{
+    width: 332px;
+    height: 259px;
+    margin-left: 537px;  
+    margin-top: 30px; 
+    
+}
+
+.Simgtwo{
+    width: 173px;
+    height: 132px;
+    margin-top: -50px;
+    margin-left: 1068px;
+}
+
+.Simgfour{
+    width: 231px;
+    height: 184px;
+    margin-top: -180px;
+    margin-left: 38px;
+}
+
+.create{
+    width: 580px;
+    height: 216px;
+    font-family: 'Reckless Neue';
+    font-weight: 400;
+    font-size: 62px;
+    font-style: mixed;
+    margin-left: 425px;
+    margin-top: -70px;
+    margin-bottom: 36px;
+    line-height: 72px;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: top;
+    color: #323334;
+}
+
+
+
+.develop {
+    width: 480px;
+    height: 76px;
+    font-family: 'Neue Montreal';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 496px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10%;
+    vertical-align: top;
+    color: #323334
+}
+.read{
+    width: 147px;
+    height: 25px;
+    margin-top: 24px;
+    margin-left: 666px;
+    border-radius: 8px;
+    border-color:#f8f4e7;
+    padding: 8px, 36px, 8px, 36px;
+    background-color: #f8f4e7;
+}
+.read:hover, :focus {
+    background-color: #1D3557;
+    color: #fcfdfd;
+    border-color:#1D3557; ;
+}
+
+.Simgthree{
+    width: 200px;
+    height: 210px;
+    margin-left: 1240px;
+    margin-top: -230px;
+}
+
+.Simgfive{
+    width: 413px;
+    height: 290px;
+    margin-top: -150px;
+}
+
+.Simgsix{
+    width: 355px;
+    height: 285px;
+    margin-left: 887px;
+    margin-top: -100px;
+   
+}
+
+ /* media queries */
+
+ @media screen and (max-width:376px){
+
+    .scndpage {
+        width: 375px;
+        height: 751px;
+    }
+    .tsfig{
+        width: 375px;
+    }
+    .lsfig{
+        width: 375px;
+    }
+    .Simgone{
+        width: 147px;
+        height: 114px;
+        margin-top: 41px;
+        margin-left: 32px;   
+        
+    }
+    .Simgtwo{
+        width: 76px;
+        height: 58px;
+        margin-top: -31px;
+        margin-left: 292px;
+    }
+    .Simgfour{
+        width: 102px;
+        height: 81px;
+        margin-top: 54px;
+        margin-left: -65px;
+    }
+    .create{
+        width: 343px;
+        height: 126px;
+        font-size: 36px;
+        font-style: normal;
+        margin-left: 18px;
+        margin-top: -135px;
+        margin-bottom: 0px;
+        line-height: 42px;
+        letter-spacing: -2%;
+    
+    }
+    
+    .develop {
+        width: 343px;
+        height: 133px;
+        margin-left: 16px; 
+    }
+    .read{
+        width: 147px;
+        height: 25px;
+        margin-top: 32px;
+        margin-left: 105px;  
+    }
+
+    
+.Simgthree{
+    width: 88px;
+    height: 93px;
+    margin-left: 353px;
+    margin-top: -290px;
+}
+
+.Simgfive{
+    width: 182px;
+    height: 128px;
+    margin-left: -130px;
+    margin-top: -20px;
+}
+
+.Simgsix{
+    width: 156px;
+    height: 126px;
+    margin-left: 252px;
+    margin-top: -40px;
+    margin-bottom: 54px;
+   
+}
+
+ }

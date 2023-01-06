@@ -1,0 +1,457 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .seceoa{
+    height: 90px;
+    width: 1440px;
+    border-bottom: 1px solid #dfdedb ;
+
+  }
+
+  .eoa {
+    font-family: 'Reckless Neue';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    margin-top: 24px;
+    margin-bottom: 22px;
+    color: #323334;
+  }
+
+  .secres { 
+    display: flex;
+    transform: rotate(-90deg);
+  }
+  
+  .res{
+    height: 60px;
+    width: 620px;
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: -2%;
+    border: 1px solid #dfdedb;
+  }
+
+  .topart {
+    width: 1440px;
+    height: 620px;
+    display: flex;
+    border: 1px solid #dfdedb;
+   
+
+  }
+
+  .artone {
+   display: grid;
+   border: none;
+  }
+  .manh {
+    width: 641px;
+    height: 128px;
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: -4%;
+    margin-top: 142px;
+    margin-left: -530px;
+    color: #323334;
+
+  }
+
+  .inte {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: left;
+    vertical-align: top;
+    margin-top: -76px;
+    margin-left: -530px;
+  } 
+  .ra {
+    width: 100px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    margin-top: -86px;
+    margin-left: -530px;
+    text-decoration: none;
+    color: #323334;
+  }
+
+  .ra:hover {
+    font-family: 'Reckless Neue';
+    text-decoration: underline;
+  }
+  
+  .blacksofa{
+    width: 664px;
+    height: 561px;
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-right: 9px;
+  }
+  .secsaa{
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+  .saa {
+    width: 122px;
+    height: 14px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%; 
+    margin-left: 661px;
+    color: #323334;
+    text-decoration: none;
+  } 
+  .saa:hover {
+    text-decoration: underline;
+  }
+
+.lowart{
+  display: flex;
+}
+
+.bohemian{
+  display: grid;
+  border: 1px solid #dfdedb;
+  width: 480px;
+  height: 706px;
+}
+
+.bigbed{
+  width: 454px;
+  height: 383px;
+  margin-top: 24px;
+  margin-left: 15px;
+  margin-right: 11px;
+}
+.boh5{
+  width: 454px;
+  font-family: 'Reckless Neue';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: -2%;
+  margin-top: 16px;
+  margin-left: 15px;
+  color: #323334;
+}
+
+.bohp {
+  width: 454px;
+  height: 95px;
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 24px;
+  color: #323334;
+  margin-left: 15px;
+  margin-top: 24px;
+}
+.boha {
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 10%;
+  margin-top: 24px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #323334;
+}
+
+.texas{
+  display: grid;
+  border: 1px solid #dfdedb;
+  width: 477px;
+  height: 706px;
+}
+
+.pinkpillow{
+  width: 454px;
+  height: 383px;
+  margin-top: 24px;
+  margin-left: 13px;
+  
+  margin-right: 10px;
+}
+
+.texash5{
+  width: 454px;
+  font-family: 'Reckless Neue';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: -2%;
+  margin-top: 16px;
+  margin-left: 13px;
+  color: #323334;
+}
+
+.texasp {
+  width: 454px;
+  height: 95px;
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 24px;
+  color: #323334;
+  margin-left: 13px;
+  margin-top: 24px;
+}
+.texasa {
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 10%;
+  margin-top: 24px;
+  margin-left: 13px;
+  text-decoration: none;
+  color: #323334;
+}
+
+.tudor {
+  display: grid;
+  border: 1px solid #dfdedb;
+  width: 477px;
+  height: 706px;
+ 
+}
+
+.bluesetie {
+  width: 454px;
+  height: 383px;
+  margin-top: 24px;
+  margin-left: 14px;
+  margin-right: 15px;
+}
+
+.tudorh5 {
+  width: 454px;
+  font-family: 'Reckless Neue';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: -2%;
+  margin-top: 16px;
+  margin-left: 14px;
+  color: #323334;
+}
+.tudorp{
+  width: 454px;
+  height: 95px;
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 24px;
+  color: #323334;
+  margin-left: 14px;
+  margin-top: 24px;
+}
+
+.tudora {
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 10%;
+  margin-top: 24px;
+  margin-left: 13px;
+  text-decoration: none;
+  color: #323334;
+}
+
+ /* media queries */
+
+ @media screen and (max-width:376px) {
+
+  .artone {
+    width: 375px;
+    display: grid;
+    border: none;
+   }
+  .seceoa{
+    width: 375px;
+    margin-bottom: none;
+  }
+
+  .secres { 
+    display: none;
+    
+  }
+  
+  .res{
+    display: none;
+  }
+
+  .topart {
+    width: 375px;
+    height: 620px;
+    flex-direction: column-reverse;
+    border: none;
+  }
+  .blacksofa{
+    width: 343px;
+    height: 289px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .manh {
+    width: 343px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -2%;
+    margin-top: 16px;
+    margin-left: 16px
+  }
+  .inte {
+    width: 343px;
+    height: 133px;
+    margin-top: 24px;
+    margin-left: 16px;
+  } 
+  .ra {
+    width: 95px;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+
+  .secsaa{
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 60px;
+  }
+  .saa {
+    margin-left: 121.5px;
+  } 
+  .lowart{
+    flex-direction: column;
+  }
+  .bigbed {
+    width: 343px;
+    height: 56px;
+    height: 289px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .boh5{
+    width: 343px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .bohp {
+    width: 343px;
+    height: 133px;
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+  .boha {
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+  .pinkpillow {
+    width: 343px;
+    height: 289px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .texash5{
+    width: 343px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .texasp {
+    width: 343px;
+    height: 133px;
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+  .texasa {
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+  .bluesetie {
+    width: 343px;
+    height: 289px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .tudorh5{
+    width: 343px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .tudorp {
+    width: 343px;
+    height: 133px;
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+  .tudora {
+    margin-top: 20px;
+    margin-left: 16px;
+  }
+
+
+ }
+
+
+
+  

@@ -1,0 +1,90 @@
+@import '../styles/RecklessNeue-ThinItalic/style.css';
+@import '../styles/NeueMontreal-Light/style.css';
+@import '../styles/RecklessNeue-Regular/style.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .fifthpge {
+    width: 1440px;
+    height: 1081px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nhr {
+    margin: 0;
+    color: #dedee0;
+  }
+
+  .siglenix {
+    width: 291px;
+    height: 365px;
+    margin-top: 125px;
+    margin-left: 106px;
+    background-color: #fff;
+  }
+  .iglenix {
+    width: 251px;
+    height: 301px;
+    margin: 20px;
+  }
+
+  .satajux {
+    width: 291px;
+    height: 365px;
+    margin-top: 53px;
+    margin-left: 1073px;
+    background-color: #fff;
+  }
+
+  .atajux {
+    width: 251px;
+    height: 301px;
+    margin: 20px;
+  }
+
+   .nname {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #323334;
+   }
+
+   .nprice {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -15px;
+    margin-left: 230px;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #323334;
+   }
+
+   /* media queries */
+
+@media screen and (max-width:376px) {
+  .fifthpge {
+    width: 375px;
+    height: 664px;
+  }
+  .nhr {
+    width: 375px;
+  }
+
+  .satajux{
+    display: none;
+  }
+
+}
